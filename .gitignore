@@ -1,0 +1,47 @@
+kafka-disaster-key.pem
+
+# Env files
+Server/.env
+Frontend/Disaster-Awareness/disaster-awareness/.env
+
+# Other files
+Server/Test.ipynb
+Frontend/boilerPlatePusher.html
+EnhancedModelForDisasterClassification/
+Model\
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+Frontend/Disaster-Awareness/disaster-awareness/node_modules
+Frontend/Disaster-Awareness/disaster-awareness/.pnp
+Frontend/Disaster-Awareness/disaster-awareness/.pnp.js
+
+# testing
+Frontend/Disaster-Awareness/disaster-awareness/coverage
+
+# production
+Frontend/Disaster-Awareness/disaster-awareness/build
+
+# misc
+Frontend/Disaster-Awareness/disaster-awareness/.DS_Store
+Frontend/Disaster-Awareness/disaster-awareness/.env.local
+Frontend/Disaster-Awareness/disaster-awareness/.env.development.local
+Frontend/Disaster-Awareness/disaster-awareness/.env.test.local
+Frontend/Disaster-Awareness/disaster-awareness/.env.production.local
+
+Frontend/Disaster-Awareness/disaster-awareness/npm-debug.log*
+Frontend/Disaster-Awareness/disaster-awareness/yarn-debug.log*
+Frontend/Disaster-Awareness/disaster-awareness/yarn-error.log*
+
+# Credentials file
+Frontend/Disaster-Awareness/disaster-awareness/credentials.properties
+
+**/EnhancedModelForDisasterClassification
+
+**/logs
+
+**/node_modules
+
+**/.env
